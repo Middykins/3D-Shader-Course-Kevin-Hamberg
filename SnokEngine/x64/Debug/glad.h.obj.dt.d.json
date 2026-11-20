@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\kevin\\source\\repos\\snokengine\\dependencies\\glfw\\include\\glad\\glad.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\kevin\\source\\repos\\snokengine\\dependencies\\glfw\\include\\khr\\khrplatform.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

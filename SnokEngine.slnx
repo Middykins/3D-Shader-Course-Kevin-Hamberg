@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SnokEngine/SnokEngine.vcxproj" Id="20f663e6-5f9c-4e82-9ea1-9916ff11e294" />
+</Solution>
