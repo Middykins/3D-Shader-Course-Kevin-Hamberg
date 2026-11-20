@@ -312,12 +312,12 @@ int main()
 		if (glm::distance(linkPos, lightPos1) >= glm::distance(linkPos, lightPos2))
 		{
 			T += deltaTime*2;
-			T = glm::max(T,0.0f);
+			T = glm::min(T,1.0f);
 		}
 		else
 		{
 			T -= deltaTime*2;
-			T = glm::min(T,1.0f);
+			T = glm::max(T,0.0f);
 		}
 		lightLerp = glm::mix(lightPos1, lightPos2, T);
 		glUniform3f(lightLocation, lightLerp.x, lightLerp.y, lightLerp.z);
